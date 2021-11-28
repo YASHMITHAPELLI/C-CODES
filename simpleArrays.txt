@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int arr[3],i;
+    for(i=0;i<3;i++)
+    {
+        printf("\nenter element:");
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<3;i++)
+    {
+        printf("\nenter element:%d",arr[i]);
+    }
+    return 0;
+}
